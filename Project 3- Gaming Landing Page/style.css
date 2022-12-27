@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background-image: url(assets/Photos/futuristic-bg.png);
+    background-size:100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+/* navbar  */
+
+.navbar{
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar .menue{
+    position: relative;
+    left: -200px;
+}
+
+.navbar .menue ul{
+display: flex;
+color:rgb(184, 179, 179);
+font-size: 15px;
+width: 25vw;
+justify-content: space-between;
+
+
+}
+
+.navbar .menue ul li{
+    list-style: none;
+}
+
+.navbar .menue ul li:hover{
+    cursor: pointer;
+    color: #fff;
+}
+
+.navbar .sign button:nth-child(1){
+background-color: transparent;
+border: none;
+color: rgb(184, 179, 179);
+font-size: 15px;
+padding: 10px 20px;
+}
+
+.navbar .sign button:nth-child(1):hover{
+    cursor: pointer;
+   color: #fff;
+}
+
+.navbar .sign button:nth-child(2){
+    background-color: #F4694C;
+    border: none;
+    width: 120px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+
+.navbar .sign button:nth-child(2):hover{
+    background-color: #fff;
+    color: #F4694C;
+    cursor: pointer;
+}
+
+/* highlight section  */
+.highlight{
+    display: flex;
+    padding: 0 100px;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+}
+
+.highlight .left {
+    padding-top: 100px;
+}
+
+.highlight .left h1{
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.highlight .left p{
+    color:rgb(184, 179, 179) ;
+    margin-bottom: 30px;
+}
+
+.highlight .left div button:nth-child(1){
+    height: 60px;
+    width: 180px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #F4694C;
+    color: #fff;
+}
+.highlight .left div button:nth-child(1):hover{
+cursor: pointer;
+background-color: #fff;
+color: #F4694C;
+}
+
+.highlight .left div button:nth-child(2){
+    height: 60px;
+    width: 180px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color:transparent;
+    color: rgb(184, 179, 179);
+    border: 2px solid rgb(184, 179, 179);
+    margin-left: 20px;
+}
+
+.highlight .left div button:nth-child(2):hover{
+    border-color: #fff;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* right section  */
+
+.highlight .right{
+    padding-top: 180px;
+    position: relative;
+    left: -100px;
+
+}
+
+.highlight .right .play{
+    position: relative;
+    left: 130px;
+    margin-bottom: 100px;
+}
+
+.highlight .right div{
+    display: flex;
+    position: relative;
+    top: 50px;
+}
+
+.highlight .right div h2{
+    font-size: 27px;
+    font-weight: 400;
+    color: rgb(184, 179, 179);
+}
+.highlight .right div img:nth-child(1){
+    position: relative;
+    bottom: 40px;
+    right: 20px;
+
+}
+.highlight .right div .img-2{
+position: relative;
+left: 80px;
+top: 50px;
+}
+    
